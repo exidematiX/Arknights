@@ -59,6 +59,9 @@
     "dotnet.defaultSolution": "Arknights.sln",
     "cSpell.words": [
         "Behaviour",
+        "Decreate",
+        "interactable",
+        "Mathf",
         "UGUI"
     ]
 }

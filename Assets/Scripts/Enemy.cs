@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour
         pointIndex++;
         if (pointIndex > (Waypoints.Instance.GetLength() - 1))
         {
-            GameManager.Instance.Fail();
+            GameManager.Instance.CurrentHealth--;
             Die();return;
         }
         targetPosition = Waypoints.Instance.GetWaypoint(pointIndex);
