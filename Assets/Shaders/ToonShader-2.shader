@@ -52,7 +52,7 @@ Shader "Custom/ToonShader-2"
             
             half4 OutlineFrag() : SV_Target
             {
-                return _OutlinweColor;
+                return _OutlineColor;
             }
             ENDHLSL
         }
