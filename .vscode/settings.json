@@ -62,6 +62,7 @@
         "Decreate",
         "interactable",
         "Mathf",
+        "Rigidbody",
         "UGUI"
     ]
 }
